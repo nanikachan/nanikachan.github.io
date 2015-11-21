@@ -1,0 +1,46 @@
+# Site settings
+title: "Zoldyck"
+description: ""
+baseurl: ""
+url: "" 
+sass:
+    sass_dir: /src/sass
+    style: compressed
+highlighter: pygments
+permalink: /:title/
+gems:
+    - jekyll-feed
+    - jemoji
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+
+# User settings
+username: Zoldyck
+user_description: blabla..
+user_title: Welcome to my personal pages
+email: zoldyck.dot@gmail.com
+twitter_username: ""
+github_username:  nanikachan
+facebook_username : rochmanwah
+instagram_username:  "nyasuh"
+disqus_username: zoldyck
+tumblr_username : zoldyck-dot
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+links:
+  - title: Home
+    url: /
+  - title: All post
+    url: /allpost
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about

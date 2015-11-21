@@ -1,2 +1,1 @@
 # nanikachan.github.io
-fushroh!!

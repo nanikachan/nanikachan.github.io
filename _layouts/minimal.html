@@ -1,0 +1,24 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    {% include head.html %}
+    <body>
+        {% include svg-icons.html %}
+        {% include header-post.html %}
+        <section class="post" itemscope itemtype="http://schema.org/WebPage">
+
+            <article role="article" id="scroll" class="post-content" role="main" itemprop="mainContentOfPage">
+                {{ content }}
+            </article>
+
+            {% include footer.html %}
+            {% include menu.html %}
+            {% include contact.html %}
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>            
+        </section>
+    </body>
+</html>

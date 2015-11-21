@@ -1,0 +1,17 @@
+---
+# Transform Sass into css
+---
+@import "fontawesome";
+/* @import "pygments";  */
+@import "materialize";
+
+footer.page-footer {
+  margin-top: 70px;
+  padding-top: 10px;
+  background-color: #039BE5; }
+  footer.page-footer .footer-copyright {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #039BE5 }
