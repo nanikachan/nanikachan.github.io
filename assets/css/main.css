@@ -654,7 +654,7 @@ input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-se
 		}
 
 		.header-post .date{
-			font-family:'Open Sans',sans-serif;
+			font-family:'Roboto',sans-serif;
 			font-weight:300;
 			font-style:normal;
 			font-size:1rem
@@ -675,7 +675,7 @@ input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-se
 		}
 
 		.header-post .subtitle{
-			font-family:'Open Sans',sans-serif;
+			font-family:'Roboto',sans-serif;
 			font-weight:30;
 			font-style:normal;
 			font-size:1.25rem
@@ -689,7 +689,7 @@ input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-se
 			.header-post p{
 				color:#fff;
 				text-decoration:none;
-				font-family:'Open Sans',sans-serif;
+				font-family:'Roboto',sans-serif;
 				font-weight:300;
 				font-style:normal;
 				font-size:1.125rem
